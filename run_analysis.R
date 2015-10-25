@@ -6,8 +6,8 @@ rm(list=ls())
 ## Packages
 library(reshape2)
 
-## Set working directory
-setwd("C:/Users/melmarini/Documents/Coursera/Getting and Cleaning Data/Course Project/Data")
+## Set own working directory if applicable
+# setwd("C:/Users/melmarini/Documents/Coursera/Getting and Cleaning Data/Course Project/Data")
 
 ## Check if zip file with raw data exists, if not, download zip file
 zipfile <- "getdata-projectfiles-UCI HAR Dataset.zip"
